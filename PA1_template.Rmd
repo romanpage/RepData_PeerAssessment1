@@ -11,6 +11,11 @@ time <- format(Sys.time(), "%a %b %d %X %Y")
 ```
 `r time`
 
+```{r setup, cache=FALSE, include=FALSE}  
+library(knitr)  
+opts_chunk$set(fig.path='figure/') 
+```
+
 ## Loading and preprocessing the data
         
 Show any code that is needed to
